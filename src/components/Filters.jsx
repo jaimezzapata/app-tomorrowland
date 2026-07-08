@@ -5,7 +5,7 @@ export const Filters = ({ filters, filterOptions, updateFilter, clearFilters }) 
       <div className="bg-white rounded-2xl shadow-lg border border-slate-200 p-5">
         <div className="flex flex-col md:flex-row md:flex-wrap md:items-center gap-4">
           <div className="flex flex-col gap-1.5 flex-1 min-w-[200px]">
-            <label className="text-xs font-extrabold text-slate-700 uppercase tracking-wider">Etapa</label>
+            <label className="text-xs font-extrabold text-slate-700 uppercase tracking-wider">Stage</label>
             <select
               value={filters.stage || ''}
               onChange={(e) => updateFilter('stage', e.target.value || null)}

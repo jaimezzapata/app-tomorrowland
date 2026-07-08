@@ -1,24 +1,22 @@
-import { useSchedule } from './hooks/useSchedule';
-import { Header } from './components/Header';
-import { Filters } from './components/Filters';
-import { ScheduleList } from './components/ScheduleList';
+
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import { PinProvider } from './context/PinContext';
+import { Home } from './components/Home';
+import { MySchedule } from './components/MySchedule';
 import './App.css';
 
 function App() {
-  const { schedule, filters, filterOptions, updateFilter, clearFilters } = useSchedule();
-
   return (
-    <div className="app">
-      <Header />
-      <Filters
-        filters={filters}
-        filterOptions={filterOptions}
-        updateFilter={updateFilter}
-        clearFilters={clearFilters}
-      />
-      <ScheduleList schedule={schedule} />
-    </div>
+    <PinProvider>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/my-schedule" element={<MySchedule />} />
+        </Routes>
+      </HashRouter>
+    </PinProvider>
   );
 }
 
 export default App;
+
