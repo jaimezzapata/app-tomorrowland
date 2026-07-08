@@ -1,0 +1,440 @@
+{
+    "festival": "Tomorrowland",
+    "year": 2026,
+    "edition_theme": "CONSCIENCIA",
+    "weekend": 1,
+    "stages": {
+        "Mainstage": {
+            "Viernes 17 de julio": [
+                {
+                    "hora": "12:00 - 14:00",
+                    "artista": "DISCOVERY"
+                },
+                {
+                    "hora": "14:00 - 15:30",
+                    "artista": "Vintage Culture"
+                },
+                {
+                    "hora": "15:30 - 16:30",
+                    "artista": "Disco Lines"
+                },
+                {
+                    "hora": "16:30 - 17:30",
+                    "artista": "Bassjackers"
+                },
+                {
+                    "hora": "17:35 - 18:35",
+                    "artista": "Henri PFR"
+                },
+                {
+                    "hora": "18:40 - 19:40",
+                    "artista": "NERVO"
+                },
+                {
+                    "hora": "19:40 - 20:40",
+                    "artista": "Marlon Hoffstadt"
+                },
+                {
+                    "hora": "20:40 - 21:40",
+                    "artista": "Novah"
+                },
+                {
+                    "hora": "21:45 - 22:45",
+                    "artista": "The Chainsmokers"
+                },
+                {
+                    "hora": "22:50 - 23:50",
+                    "artista": "Sebastian Ingrosso"
+                },
+                {
+                    "hora": "23:50 - 00:50",
+                    "artista": "Martin Garrix"
+                }
+            ],
+            "Sábado 18 de julio": [
+                {
+                    "hora": "12:00 - 14:00",
+                    "artista": "DISCOVERY"
+                },
+                {
+                    "hora": "14:00 - 15:00",
+                    "artista": "Merow"
+                },
+                {
+                    "hora": "15:00 - 16:00",
+                    "artista": "Stephani B"
+                },
+                {
+                    "hora": "16:00 - 17:00",
+                    "artista": "Omdat Het Kan & Average Rob"
+                },
+                {
+                    "hora": "17:05 - 18:05",
+                    "artista": "Maddix"
+                },
+                {
+                    "hora": "18:10 - 19:10",
+                    "artista": "HALŌ"
+                },
+                {
+                    "hora": "19:10 - 20:10",
+                    "artista": "Boris Brejcha"
+                },
+                {
+                    "hora": "20:10 - 21:10",
+                    "artista": "John Newman"
+                },
+                {
+                    "hora": "21:15 - 22:15",
+                    "artista": "Fisher"
+                },
+                {
+                    "hora": "22:20 - 23:35",
+                    "artista": "Dimitri Vegas & Like Mike"
+                },
+                {
+                    "hora": "23:35 - 00:50",
+                    "artista": "David Guetta"
+                }
+            ],
+            "Domingo 19 de julio": [
+                {
+                    "hora": "12:00 - 14:30",
+                    "artista": "DISCOVERY"
+                },
+                {
+                    "hora": "14:30 - 15:30",
+                    "artista": "Hannah Laing"
+                },
+                {
+                    "hora": "15:30 - 16:30",
+                    "artista": "Karakals"
+                },
+                {
+                    "hora": "16:30 - 17:30",
+                    "artista": "Malugi"
+                },
+                {
+                    "hora": "17:35 - 18:35",
+                    "artista": "Kevin de Vries"
+                },
+                {
+                    "hora": "18:40 - 19:40",
+                    "artista": "B Jones"
+                },
+                {
+                    "hora": "19:40 - 20:40",
+                    "artista": "Set sorpresa"
+                },
+                {
+                    "hora": "20:40 - 21:40",
+                    "artista": "John Summit"
+                },
+                {
+                    "hora": "21:45 - 22:45",
+                    "artista": "Alesso"
+                },
+                {
+                    "hora": "22:50 - 23:50",
+                    "artista": "Calvin Harris"
+                }
+            ]
+        },
+        "Atmosphere": {
+            "Viernes 17 de julio": [
+                {
+                    "hora": "12:00 - 14:00",
+                    "artista": "Bisoux"
+                },
+                {
+                    "hora": "14:00 - 15:30",
+                    "artista": "ROW1"
+                },
+                {
+                    "hora": "15:30 - 17:00",
+                    "artista": "Peterblue"
+                },
+                {
+                    "hora": "17:00 - 18:30",
+                    "artista": "sim0ne b2b Southstar"
+                },
+                {
+                    "hora": "18:30 - 20:00",
+                    "artista": "KUKO"
+                },
+                {
+                    "hora": "20:00 - 21:30",
+                    "artista": "MANDY b2b NEGITIV"
+                },
+                {
+                    "hora": "21:30 - 23:00",
+                    "artista": "Nico Moreno"
+                },
+                {
+                    "hora": "23:00 - 00:55",
+                    "artista": "Sara Landry"
+                }
+            ],
+            "Sábado 18 de julio": [
+                {
+                    "hora": "12:00 - 14:00",
+                    "artista": "Interactive Noise"
+                },
+                {
+                    "hora": "14:00 - 15:30",
+                    "artista": "Marhu"
+                },
+                {
+                    "hora": "15:30 - 17:00",
+                    "artista": "Estella Boersma"
+                },
+                {
+                    "hora": "17:00 - 18:30",
+                    "artista": "Elli Acula"
+                },
+                {
+                    "hora": "18:30 - 20:00",
+                    "artista": "Ben Klock"
+                },
+                {
+                    "hora": "20:00 - 21:30",
+                    "artista": "BIIA b2b Charlie Sparks"
+                },
+                {
+                    "hora": "21:30 - 23:30",
+                    "artista": "Indira Paganotto"
+                },
+                {
+                    "hora": "23:30 - 00:55",
+                    "artista": "Reinier Zonneveld (live)"
+                }
+            ],
+            "Domingo 19 de julio": [
+                {
+                    "hora": "12:00 - 14:00",
+                    "artista": "Flour"
+                },
+                {
+                    "hora": "14:00 - 16:00",
+                    "artista": "VE/RA"
+                },
+                {
+                    "hora": "16:00 - 17:30",
+                    "artista": "Blondex"
+                },
+                {
+                    "hora": "17:30 - 19:00",
+                    "artista": "SHDW b2b ÜBERKIKZ"
+                },
+                {
+                    "hora": "19:00 - 20:30",
+                    "artista": "Øtta"
+                },
+                {
+                    "hora": "20:30 - 22:30",
+                    "artista": "Anetha"
+                },
+                {
+                    "hora": "22:30 - 23:55",
+                    "artista": "Amelie Lens"
+                }
+            ]
+        },
+        "Core": {
+            "Viernes 17 de julio": [
+                {
+                    "hora": "12:00 - 14:00",
+                    "artista": "Eileen"
+                },
+                {
+                    "hora": "14:00 - 17:00",
+                    "artista": "John Noseda b2b Kenny Montana"
+                },
+                {
+                    "hora": "17:00 - 19:00",
+                    "artista": "Bibi Seck"
+                },
+                {
+                    "hora": "19:00 - 21:00",
+                    "artista": "Sally C"
+                },
+                {
+                    "hora": "21:00 - 23:00",
+                    "artista": "Sasha b2b Young Marco"
+                },
+                {
+                    "hora": "23:00 - 00:50",
+                    "artista": "Modeselektor (DJ-set)"
+                }
+            ],
+            "Sábado 18 de julio": [
+                {
+                    "hora": "12:00 - 13:30",
+                    "artista": "Capoon"
+                },
+                {
+                    "hora": "13:30 - 15:00",
+                    "artista": "Curol"
+                },
+                {
+                    "hora": "15:00 - 16:30",
+                    "artista": "Betical"
+                },
+                {
+                    "hora": "16:30 - 18:00",
+                    "artista": "Dino Lenny"
+                },
+                {
+                    "hora": "18:00 - 19:30",
+                    "artista": "Antdot"
+                },
+                {
+                    "hora": "19:30 - 21:30",
+                    "artista": "SAMM b2b Ajna"
+                },
+                {
+                    "hora": "21:30 - 23:00",
+                    "artista": "Carlita b2b Malive"
+                },
+                {
+                    "hora": "23:00 - 00:50",
+                    "artista": "Bedouin"
+                }
+            ],
+            "Domingo 19 de julio": [
+                {
+                    "hora": "12:00 - 14:00",
+                    "artista": "Massignan.y"
+                },
+                {
+                    "hora": "14:00 - 16:00",
+                    "artista": "Ineffekt"
+                },
+                {
+                    "hora": "16:00 - 18:00",
+                    "artista": "Fafi Abdel Nour"
+                },
+                {
+                    "hora": "18:00 - 20:00",
+                    "artista": "Sedef Adasï"
+                },
+                {
+                    "hora": "20:00 - 22:00",
+                    "artista": "Avalon Emerson b2b Ben UFO"
+                },
+                {
+                    "hora": "22:00 - 23:50",
+                    "artista": "Job Jobse"
+                }
+            ]
+        },
+        "Cage": {
+            "Viernes 17 de julio": [
+                {
+                    "hora": "12:00 - 13:00",
+                    "artista": "Sacha Malice"
+                },
+                {
+                    "hora": "13:00 - 14:00",
+                    "artista": "RAYZEN"
+                },
+                {
+                    "hora": "14:00 - 15:00",
+                    "artista": "SANDY WAREZ b2b REVENJA"
+                },
+                {
+                    "hora": "15:00 - 16:00",
+                    "artista": "elMefti"
+                },
+                {
+                    "hora": "16:00 - 17:00",
+                    "artista": "Lolalita & Brennt (live)"
+                },
+                {
+                    "hora": "17:00 - 18:00",
+                    "artista": "VON BIKRÄV"
+                },
+                {
+                    "hora": "18:00 - 19:00",
+                    "artista": "DITHER"
+                },
+                {
+                    "hora": "19:00 - 20:00",
+                    "artista": "GPF b2b DR DONK"
+                },
+                {
+                    "hora": "20:00 - 21:00",
+                    "artista": "MIND COMPRESSOR"
+                },
+                {
+                    "hora": "21:00 - 22:00",
+                    "artista": "LUNAKORPZ"
+                },
+                {
+                    "hora": "22:00 - 23:00",
+                    "artista": "VERNEX b2b NRKi"
+                }
+            ],
+            "Sábado 18 de julio": [
+                {
+                    "hora": "12:00 - 14:00",
+                    "artista": "Luna Fields"
+                },
+                {
+                    "hora": "14:00 - 15:30",
+                    "artista": "Maike Depas"
+                },
+                {
+                    "hora": "15:30 - 17:00",
+                    "artista": "Not My Type"
+                },
+                {
+                    "hora": "17:00 - 18:30",
+                    "artista": "A.N.I."
+                },
+                {
+                    "hora": "18:30 - 20:00",
+                    "artista": "Dexphase"
+                },
+                {
+                    "hora": "20:00 - 21:30",
+                    "artista": "Byorn"
+                },
+                {
+                    "hora": "21:30 - 23:00",
+                    "artista": "Vieze Asbak"
+                }
+            ],
+            "Domingo 19 de julio (Formato Face 2 Face)": [
+                {
+                    "hora": "12:00 - 14:00",
+                    "artista": "Klaps F2F Miamor"
+                },
+                {
+                    "hora": "14:00 - 15:30",
+                    "artista": "Hurts F2F ROW 1"
+                },
+                {
+                    "hora": "15:30 - 17:00",
+                    "artista": "FUMI F2F HUJUS"
+                },
+                {
+                    "hora": "17:00 - 18:30",
+                    "artista": "David Löhlein F2F Yasmin regisford"
+                },
+                {
+                    "hora": "18:30 - 20:00",
+                    "artista": "EMILIJA F2F Frederic"
+                },
+                {
+                    "hora": "20:00 - 21:30",
+                    "artista": "Serafina F2F zwilling"
+                },
+                {
+                    "hora": "21:30 - 23:00",
+                    "artista": "Adrián Mills F2F SISU"
+                }
+            ]
+        }
+    }
+}

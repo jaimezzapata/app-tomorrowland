@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-[#FBFBF8] min-h-screen text-slate-900 font-sans;
+}
+
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(135deg, #0379c3 0%, #033349 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
