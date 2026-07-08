@@ -16,6 +16,7 @@ export const PinProvider = ({ children }) => {
   }, [pinnedArtists]);
 
   const togglePin = (artist) => {
+    if (!artist) return;
     const isPinned = pinnedArtists.some(
       (pinned) => 
         pinned.artista === artist.artista && 
@@ -36,6 +37,7 @@ export const PinProvider = ({ children }) => {
   };
 
   const isPinned = (artist) => {
+    if (!artist) return false;
     return pinnedArtists.some(
       (pinned) => 
         pinned.artista === artist.artista && 

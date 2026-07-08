@@ -2,20 +2,25 @@
 import { usePin } from '../context/PinContext';
 import { Link } from 'react-router-dom';
 import { groupByDay, findConflicts, parseTimeRange, getEventPosition } from '../utils/timeHelpers';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { ArtistModal } from './ArtistModal';
 
 export const MySchedule = () => {
   const { pinnedArtists, clearAll } = usePin();
   const [selectedDay, setSelectedDay] = useState(null);
+  const [selectedArtist, setSelectedArtist] = useState(null);
 
   const groupedArtists = groupByDay(pinnedArtists);
   const conflicts = findConflicts(pinnedArtists);
 
   // Initialize selectedDay with first day if it exists
   const days = Object.keys(groupedArtists);
-  if (!selectedDay && days.length > 0) {
-    setSelectedDay(days[0]);
-  }
+  
+  useEffect(() => {
+    if (!selectedDay && days.length > 0) {
+      setSelectedDay(days[0]);
+    }
+  }, [days, selectedDay]);
 
   // Simplificar nombre de etapa y fecha
   const getSimplifiedStage = (stage) => {
@@ -141,10 +146,10 @@ export const MySchedule = () => {
                 <button
                   key={day}
                   onClick={() => setSelectedDay(day)}
-                  className={`px-4 py-1.5 rounded-md font-bold transition-all duration-200 text-sm ${
+                  className={`px-4 py-2 rounded-lg font-extrabold transition-all duration-200 text-base border-2 ${
                     selectedDay === day
-                      ? 'bg-consciencia-blue text-white shadow-md'
-                      : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200'
+                      ? 'bg-blue-600 text-white border-blue-600 shadow-lg'
+                      : 'bg-white text-slate-900 border-slate-400 hover:bg-slate-100 shadow-md'
                   }`}
                 >
                   {day}
@@ -201,7 +206,8 @@ export const MySchedule = () => {
                             return (
                               <div
                                 key={index}
-                                className={`absolute left-3 right-3 rounded-md p-1 border-l-2 shadow-sm transition-all duration-200 hover:shadow cursor-pointer overflow-hidden flex items-center ${getStageColor(item.stage)} ${isConflict ? 'ring-1 ring-red-300 ring-inset' : ''}`}
+                                onClick={() => setSelectedArtist(item)}
+                                className={`absolute left-1 right-1 rounded-md p-1 border-l-2 shadow-sm transition-all duration-200 hover:shadow cursor-pointer overflow-hidden flex items-center ${getStageColor(item.stage)} ${isConflict ? 'ring-1 ring-red-300 ring-inset' : ''}`}
                                 style={{
                                   top: `${top * 0.8}px`,
                                   height: `${Math.max(height * 0.8, 32)}px`
@@ -232,6 +238,11 @@ export const MySchedule = () => {
           </>
         )}
       </div>
+      
+      <ArtistModal 
+        artist={selectedArtist} 
+        onClose={() => setSelectedArtist(null)} 
+      />
     </div>
   );
 };
